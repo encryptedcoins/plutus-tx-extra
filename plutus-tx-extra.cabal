@@ -34,6 +34,7 @@ library
     import: lang
     exposed-modules:
       PlutusTx.Extra.ByteString
+      PlutusTx.Extra.FromFrontend
       PlutusTx.Extra.Prelude
     build-depends:
       base                          >= 4.9 && < 5,
